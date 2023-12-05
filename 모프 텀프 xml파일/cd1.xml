@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnclose7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/font_bookguk"
+        android:text="CD의 발전과정"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="491dp"
+        android:layout_marginTop="32dp"
+        android:text="아날로그 방식의 LP를 대체하려는 움직임은 1970년대부터 본격적으로 일어났다. 당시 세계의 음반 및 오디오 업체들은 표준 규격을 결정하기 위해 여러 방식의 디지털 오디오 규격을 심의했는데, 이 중 소니와 필립스가 개발한 CD가 가장 많은 지지를 받았다. 당시 표준 CD의 지름은 12cm로, 최대 74분의 비압축 오디오 신호를 담을 수 있었다. 왜 60분도, 120분도 아니고 애매한 분량인 74분이 용량의 기준이 되었을까? 처음 필립스가 개발한 CD는 지름 11.5cm로, 60분을 조금 넘는 용량을 기록할 수 있었다. 이 정도만 해도 기존의 LP를 담는데 전혀 부족함이 없었다. 하지만 소니의 ‘오가 노리오’ 부사장이 베토벤 9번 교향곡이 CD 한 장에 전부 들어갔으면 좋겠다는 의견을 내놓았다고 한다. 당시유명한 베토벤 9번 교향곡녹음 중연주 시간이 가장 긴 것이 74분이었기 때문에 이 시간이 CD의 용량으로 결정됐고, CD 지름도 11.5cm에서 12cm로 늘어나게 되었다고 전해진다. 그러나 이에 대해서는 다른 이야기도 꽤 있다. 유명한 지휘자 카라얀이 같은 이유로 74분을 권했다는 설도 있고, 크기가 먼저 카세트테이프의 대각선 길이와 비슷한 12cm로 정해져서, 시간이 74분이 되었다는 주장도 있다. 세계 최초의 상용화 CD는 1982년 아바(ABBA)의 앨범 ‘더 비지터(The Visitors)’다.그러나 초기의 CD들는대체로대중음악보다는 클래식 음악위주로 제작됐다. 당시 CD와 CD플레이어는 고가품이었고, 대중음악 마니아들보다는 클래식 마니아들이 금전적으로 여유가 있을 것이라는 필립스의 판단 때문이었다."
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

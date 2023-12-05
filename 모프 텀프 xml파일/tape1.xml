@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnclose10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/font_bookguk"
+        android:text="카세트테이프의 발전과정"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:text="필립스에서 규격을 만든 소형 자기테이프 저장 매체. 산화철(III)(Fe2O3)이나 이산화 크로뮴(CrO2), 자철광(Fe3O4) 같은 자성 물질을 도포한 폴리에스테르 재질의 긴 테이프에 녹음기에서 자성 물질을 자화시켜 음원을 비롯한 각종 데이터를 저장한다. 대부분은 아날로그 신호를 기록하지만 디지털 데이터를 기록하는 카세트 테이프도 있다. 아날로그 음성매체 중 LP의 다음 세대로 분류된다. 원래 1960년대에 수많은 가전업체들이 다양한 카세트 테이프 규격을 내놓았다. 필립스가 내놓은 카세트 테이프 규격은 당시 수많은 카세트 테이프 규격들 중 하나였으며, '컴팩트 카세트'(Compact Cassette)라는 이름이었다. 그러나 1960년대 카세트 테이프 규격 경쟁을 거치면서 필립스의 컴팩트 카세트 규격이 사실상 표준이 되면서 현대에는 필립스의 규격을 그냥 카세트 테이프라 부르고 있다. 특히 음악시장에서 카세트 테이프의 출시, 판매가 가장 활발히 이루어졌던 1980년대부터 2000년대 초반까지의 시기를 음악사의 한 문화이자 르네상스로 분류할 정도로 대중들에게 큰 영향을 끼쳤던 저장매체이기도 하다. 카세트 테이프를 이용한 음악 감상기기인 워크맨을 비롯한 여러 휴대용 카세트 플레이어가 전자기기 시장을 휩쓸었고, 휴대용 카세트 녹음기 등이 녹음 기기의 주류로 사용되기도 하였다. 한국에서는 2000년대까지도 음악, 녹음, 어학, 종교 등 다양한 분야에서 저장매체로서 사용되었으며 그 이후에도 스마트폰의 완전 대중화 시기까지 명맥이 끊긴 것은 아닌데 예를 들어 트럭 운전사 같은 직종에 종사하는 사람들이 사용하곤 했다."
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

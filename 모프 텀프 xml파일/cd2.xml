@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnclose8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/font_bookguk"
+        android:text="CD수집시 팁과 고려 해야할 점"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="먼저 엄청난 부자가 아니라면 수집에 있어서 첫번째로 고려해야할 점은 과연 내가 이 음반을 지속적으로 계속 들을정도로 좋아하는가?라는 근본적인 말씀을 드리고 싶습니다. 음반 수집이라는 것은 돈과 시간이 상당히 들어가는 취미입니다.
+그러므로 자신이 정말 그 가수, 앨범을 좋아하는지 생각해보고 구매하거나 적절한 기준을 세우지 않으면 흥청망청 돈을 너무 써버리게 됩니다.\n먼저 CD 기준으로 설명하자면 보통 배송비 포함 13000~20000원 사이로 음반 가격이 책정이 됩니다. 그러나
+번개장터나 중고나라, 다른 중고장터 웹사이트나 커뮤니티 사이트를 살펴보면 희귀성이 낮다는 전제하에 이보다 반도 안되는 값에 새상품을 파는 분들이 많기 때문에 최소 다섯 사이트 이상은
+전부 돌아보고 구매하는 걸 추천합니다.\n그리고 기준을 세울때는 자신의 자금력과 집에 수납할 공간이 있는지 등등을 고려해서 한달의 CD 수집 취미에 쓸 예산을 정하는게
+좋습니다. 그리고 이 예산을 전부 소모하면 아무리 탐나는 음반이 올라왔다고해도 절제하는 것이 필요합니다"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

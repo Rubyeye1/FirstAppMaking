@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnclose5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/font_bookguk"
+        android:text="LP수집시 팁과 고려 해야할 점"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="LP를 수집하기 전에 가장 첫 번째로 고려해야할 점은 가격이 아닌 집에 LP를 수납할 공간이 충분한가를 따져봐야한다.
+장을 산다고해도 너무 크게 공간을 잡아먹으면 계속 음반을 구매하기 애매해지기 때문에 LP보관만을 위한 공간이 있는지 살펴봐야한다. 이후로는
+바이닐만 모을지, 턴테이블을 사서 들을지 생각을 해봐야한다. \n요즘에는 턴테이블 없이 바이닐만 모으는 경우도 꽤 흔하지만 턴테이블로 LP를 감상하는데에 있어서
+기초비용이 많이 들어가기 때문에 이를 고민해봐야한다. 앞의 사항들을 결정했다면  되도록 빠르게 구매를 한 후에 실사용을 해봐야한다. 이를 통해서 LP 특유의 음질, 질감이
+사람에 따라서 좋게 들리지 않는 경우도 있기 때문에 음반매장에 가서 실제로 청취해보고 구매를 하는 것을 권장한다. \n그리고 LP는 구매뿐만아니라 보관도 잘 해야하는데
+이는 위의 공간을 잘 결정해야한다는 점에서 이어지며 LP보관 전용비닐을 구매하여 덧씌운후에 수직으로 세워서 보관하는 것을 추천한다."
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+</androidx.constraintlayout.widget.ConstraintLayout>
